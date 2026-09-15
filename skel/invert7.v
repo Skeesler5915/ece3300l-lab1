@@ -5,9 +5,9 @@ module invert7(
     output [6:0] x  
     );
 
-    always
+    always @(*)
         begin
-        output = ~input;
-        case
+        x = ~a;
+        end
 endmodule
 
